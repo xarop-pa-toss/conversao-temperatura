@@ -1,5 +1,5 @@
 #Definir imagem original (será feito download se não presente)
-FROM node
+FROM node/14.7.5
 
 #Definir pasta de instalação (MKDIR + CD)
 WORKDIR /app
